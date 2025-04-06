@@ -1,0 +1,14 @@
+/* ActiveLink.module.css */
+.link {
+  margin-right: 0.5rem;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(96 165 250); /* hover:text-blue-400 */
+}
+
+.active-link { /* Asegúrate que coincida con el JS */
+  color: rgb(59 130 246); /* text-blue-500 */
+}
